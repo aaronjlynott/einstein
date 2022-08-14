@@ -1,0 +1,4 @@
+#we will ask for a mass(kg) and convert that into e = mc2 and output E in joules
+ein_mass = int(input("How much mass would you like to convert to energy? "))
+energy = ein_mass * 300000000**2
+print(energy)
